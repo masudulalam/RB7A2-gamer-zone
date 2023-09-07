@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 240px;
+}
+.logo-text{
+    display: inline;
+    margin-left: 20px;
+    font-size: 45px;
+    color: #0B0223;
+}
+.logo-text-letter{
+    font-size: 45px;
+    color: #FF42A5;
+}
+.menu-items > ul {
+    display: flex;
+}
+
+.menu-items li{
+    list-style: none;
+    margin-right: 30px;
+}
+.menu-items a{
+    text-decoration: none;
+    color: #3C354F;
+}
+.menu-items > ul > img{
+    margin-right: 15px;
+} 
