@@ -137,7 +137,9 @@ nav {
 .games-text-section {
     text-align: center;
 }
-
+.funny-videos-color{
+    color: #8758F1;
+}
 .card {
     display: flex;
     gap: 20px;
@@ -147,7 +149,20 @@ nav {
 /* play instantly section styles */
 .play-instantly-section{
     display: flex;
+    gap: 265px;
+    margin: 180px 240px;
 }
 .play-instantly-text{
     text-align: center;
+    padding-left: 200px;
+}
+
+.play-instantly-color{
+    color: #F948B2;
+}
+
+.play-instantly-image2{
+    position: relative;
+    bottom: 280px;
+    right: 140px
 }
