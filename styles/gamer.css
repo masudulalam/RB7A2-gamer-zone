@@ -5,6 +5,11 @@ body {
     /* @import url('https://fonts.googleapis.com/css2?family=Lato&family=Manrope:wght@400;500&family=Montserrat&family=Open+Sans:wght@400;800&family=Poppins:wght@500&family=Roboto&family=Work+Sans:wght@400;500;600;700;800&display=swap'); */
 }
 
+.font16{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
 .font18 {
     font-size: 18px;
     font-weight: 500;
@@ -46,6 +51,9 @@ body {
     font-weight: 400;
 }
 
+.inline {
+    display: inline;
+}
 
 /* nav styles */
 header {
@@ -137,9 +145,11 @@ nav {
 .games-text-section {
     text-align: center;
 }
-.funny-videos-color{
+
+.funny-videos-color {
     color: #8758F1;
 }
+
 .card {
     display: flex;
     gap: 20px;
@@ -147,22 +157,80 @@ nav {
 }
 
 /* play instantly section styles */
-.play-instantly-section{
+.play-instantly-section {
     display: flex;
     gap: 265px;
-    margin: 180px 240px;
+    margin: 0px 240px;
 }
-.play-instantly-text{
+
+.play-instantly-text {
     text-align: center;
     padding-left: 200px;
 }
 
-.play-instantly-color{
+.play-instantly-color {
     color: #F948B2;
 }
 
-.play-instantly-image2{
+.play-instantly-image2 {
     position: relative;
     bottom: 280px;
     right: 140px
+}
+
+/* button section styles */
+.button {
+    margin: 0px 240px;
+    text-align: center;
+}
+
+.button-row {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+/* footer sytles */
+footer {
+    background-color: #0B0223;
+    text-align: center;
+    padding: 130px 500px;
+}
+
+.logo-text-last{
+    color: #FFF;
+}
+.footer-navigation1{
+    margin-top: 70px;
+}
+.footer-navigation1>ul {
+    display: flex;
+    gap: 60px;
+}
+
+.footer-navigation1>ul>li {
+    list-style: none;
+}
+
+.footer-navigation1>ul>li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-navigation2>ul>li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer-navigation2{
+    margin-bottom: 30px;
+}
+.icon-button-section{
+    margin: 70px 0px;
+}
+.icon-btn{
+    margin-right: 40px;
 }
