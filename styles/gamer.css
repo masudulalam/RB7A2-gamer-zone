@@ -261,6 +261,7 @@ footer {
 /* responsive for mobile devices */
 
 @media screen and (max-width: 425px) {
+    /* nav styles */
     header {
         margin: 0px 0px;
     }
@@ -274,5 +275,14 @@ footer {
     }
     .logo {
         margin-bottom: 50px;
+    }
+    /* banner styles */
+    .banner{
+        flex-direction: column-reverse;
+        gap: 50px;
+        align-items: center;
+    }
+    .image-section img{
+        max-width: 100%;
     }
 }
