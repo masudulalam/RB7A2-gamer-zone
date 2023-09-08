@@ -111,6 +111,10 @@ nav {
     margin-right: 15px;
 }
 
+.nav-btn{
+    margin-right: 20px;
+}
+
 /* banner styles */
 .banner {
     display: flex;
@@ -189,13 +193,15 @@ nav {
     display: flex;
     gap: 40px;
     justify-content: center;
-    align-items: center;
     margin-bottom: 30px;
 }
-
-.button-row > img{
-    height: 100%;
+.btn-image{
+    display: flex;
 }
+
+/* .button-row > img{
+    height: 100%;
+} */
 .btn-image:hover{
     border: 2px solid mediumseagreen;
     border-radius: 60px;
