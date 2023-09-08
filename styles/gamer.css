@@ -290,7 +290,7 @@ footer {
     }
     /* online games styles */
     .online-games {
-        margin: 150px 0px;
+        margin: 100px 0px 0px;
     }
     .card{
         flex-direction: column;
@@ -299,11 +299,19 @@ footer {
     .play-instantly-section{
         flex-direction: column;
         margin: 0px;
+        gap: 60px;
     }
     .play-instantly-text {
         padding: 0px;
     }
     .play-instantly-image img{
         max-width: 100%;
+    }
+    .play-instantly-image2{
+        transform: scale(0.4);
+    }
+    .play-instantly-image2 {
+        position: relative;
+        bottom: 240px;
     }
 }
