@@ -4,6 +4,9 @@ body {
     font-family: 'Work Sans', sans-serif;
     /* @import url('https://fonts.googleapis.com/css2?family=Lato&family=Manrope:wght@400;500&family=Montserrat&family=Open+Sans:wght@400;800&family=Poppins:wght@500&family=Roboto&family=Work+Sans:wght@400;500;600;700;800&display=swap'); */
 }
+.none{
+    display: none;
+}
 
 .font16{
     color: rgba(255, 255, 255, 0.60);
@@ -252,4 +255,24 @@ footer {
 }
 .icon-btn{
     margin-right: 40px;
+}
+
+/* Responsive Styles */
+/* responsive for mobile devices */
+
+@media screen and (max-width: 425px) {
+    header {
+        margin: 0px 0px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-items>ul{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .logo {
+        margin-bottom: 50px;
+    }
 }
