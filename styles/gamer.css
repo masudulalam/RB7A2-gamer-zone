@@ -10,47 +10,47 @@ body {
 
 .font16{
     color: rgba(255, 255, 255, 0.60);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 }
 .font18 {
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 500;
 }
 
 .font20 {
     color: #534C64;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
 }
 
 .font45 {
-    font-size: 45px;
+    font-size: 2.81rem;
     font-weight: 700;
 }
 
 .font48 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
 .btn-primary {
     padding: 21px 40px;
     color: #FFF;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
     border-radius: 48px;
 }
 
 .section-title {
     color: #0B0223;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
 .section-description {
     color: #534C64;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 400;
 }
 
@@ -73,12 +73,12 @@ nav {
 .logo-text {
     display: inline;
     margin-left: 20px;
-    font-size: 45px;
+    font-size: 2.81rem;
     color: #0B0223;
 }
 
 .logo-text-letter {
-    font-size: 45px;
+    font-size: 2.81rem;
     color: #FF42A5;
 }
 
@@ -125,7 +125,7 @@ nav {
 }
 
 .banner-title {
-    font-size: 95px;
+    font-size: 5.93rem;
     font-weight: 800;
     color: rgba(135, 88, 241, 1);
 }
@@ -238,13 +238,13 @@ footer {
 .footer-navigation1>ul>li a {
     text-decoration: none;
     color: #FFF;
-    font-size: 18px;
+    font-size: 1.12rem;
     font-weight: 600;
 }
 .footer-navigation2>ul>li a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.60);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 500;
 }
 .footer-navigation2{
@@ -262,6 +262,9 @@ footer {
 
 @media screen and (max-width: 425px) {
     /* nav styles */
+    * body{
+        margin: 0px 50px;
+    }
     header {
         margin: 0px 0px;
     }
@@ -283,6 +286,24 @@ footer {
         align-items: center;
     }
     .image-section img{
+        max-width: 100%;
+    }
+    /* online games styles */
+    .online-games {
+        margin: 150px 0px;
+    }
+    .card{
+        flex-direction: column;
+    }
+    /* play instant section styles */
+    .play-instantly-section{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .play-instantly-text {
+        padding: 0px;
+    }
+    .play-instantly-image img{
         max-width: 100%;
     }
 }
