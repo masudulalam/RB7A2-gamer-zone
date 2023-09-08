@@ -182,16 +182,30 @@ nav {
 .button {
     margin: 0px 240px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .button-row {
     display: flex;
     gap: 40px;
     justify-content: center;
-    margin-bottom: 100px;
+    align-items: center;
+    margin-bottom: 30px;
 }
 
-/* footer sytles */
+.button-row > img{
+    height: 100%;
+}
+.btn-image:hover{
+    border: 2px solid mediumseagreen;
+    border-radius: 60px;
+    padding: 5px 20px;
+}
+.btn-image:hover h6{
+    color: mediumseagreen;
+}
+
+/* footer styles */
 footer {
     background-color: #0B0223;
     text-align: center;
