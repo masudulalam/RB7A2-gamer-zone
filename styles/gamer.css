@@ -191,14 +191,6 @@ nav {
     margin-bottom: 100px;
 }
 
-.button-row {
-    /* display: flex;
-    gap: 40px;
-    justify-content: center;
-    margin-bottom: 30px; */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
 .btn-image{
     /* display: flex; */
 }
@@ -212,17 +204,11 @@ nav {
     color: mediumseagreen;
 }
 
-/* practice */
-.image-container{
-  
-}
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 50px;
 }
-/* practice */
-
 
 /* footer styles */
 footer {
@@ -239,6 +225,7 @@ footer {
 }
 .footer-navigation1>ul {
     display: flex;
+    justify-content: center;
     gap: 60px;
 }
 
@@ -274,10 +261,10 @@ footer {
 @media screen and (max-width: 425px) {
     /* nav styles */
     * body{
-        margin: 0px 50px;
+        margin: 0px 0px;
     }
     header {
-        margin: 0px 0px;
+        margin: 0px 50px;
     }
     nav{
         display: flex;
@@ -301,7 +288,7 @@ footer {
     }
     /* online games styles */
     .online-games {
-        margin: 100px 0px 0px;
+        margin: 100px 50px;
     }
     .card{
         flex-direction: column;
@@ -309,11 +296,14 @@ footer {
     /* play instant section styles */
     .play-instantly-section{
         flex-direction: column;
-        margin: 0px;
-        gap: 60px;
+        margin: 0px 50px;
+        gap: 40px;
     }
     .play-instantly-text {
         padding: 0px;
+    }
+    .play-instantly-image{
+        height: 400px;
     }
     .play-instantly-image img{
         max-width: 100%;
@@ -327,10 +317,25 @@ footer {
     }
     /* button section styles */
     .button{
-        margin: 0px 0px;
+        margin: 100px 50px;
     }
     .wrapper{
         grid-template-columns: 1fr 1fr 1fr;
         gap: 50px;
+    }
+    /* footer styles */
+    footer{
+        padding: 130px 50px;
+    }
+    .footer-navigation1>ul {
+        flex-direction: column;
+        gap: 60px;
+    }
+    .icon-button-section{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .icon-btn{
+        margin-bottom: 40px;
     }
 }
